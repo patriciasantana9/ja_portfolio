@@ -1,11 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+
 body {
    margin: 0;
    padding: 0;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background-color: #A5A692;
+}
+
+nav {
+   background-color: #011F26;
+   width: 100%;
+   height: 70px;
+   display: block;
+}
+
+#ul_nav {
+   height: 100%;
+   margin-top: 0;
+   margin-right: 20px;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+li {
+   list-style-type: none;
+}
+
+li > a {
+   color: #A5A692;
+   font-size: .8em;
+   font-family: 'Josefin Sans', sans-serif;
+   text-decoration: none;
+}
+li > a:hover {
+   color: #025E73;
+}
+
+main {
+   height: 100%;
    display: flex;
    flex-direction: column;
 }
 
-nav {
-   display: block;
+section#copy {
+   height: 180px;
+   margin: 0px 40px 0px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: center;
 }
 
+h3 {
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 1.5em;
+   width: 60%;
+   margin: 0px;
+   text-align: right;
+   letter-spacing: .8px;
+   line-height: 25px;
+}
+
+section#info {
+   margin: 50px 0px 0px 0px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+section#a_buttons {
+   height: 45px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+section#a_buttons a {
+   font-size: 1em;
+   font-family: 'Josefin Sans', sans-serif;
+   text-decoration: none;
+   width: 112px;
+   height: 100%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+a#destaque {
+   color: #A5A692;
+   background-color: #025E73;
+}
+
+a#todos {
+   color: black;
+   border: solid 0.5px;
+}
