@@ -139,6 +139,20 @@ img {
    width: 30%;
 }
 
+section#sobre {
+   background-color: #025E73;
+   width: 100%;
+   display: flex;
+   
+}
+
+section#sobre > p {
+   height: 100px;
+   width: 70%;
+   font-family: 'Josefin Sans', sans-serif;
+   color: white;
+}
+
 footer {
    background-color: #011F26;
    display: block;
