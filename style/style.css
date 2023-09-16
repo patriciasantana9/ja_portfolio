@@ -69,9 +69,10 @@ h3 {
 }
 
 section#info {
-   height: 300px;
+   height: 248px;
    display: flex;
    flex-direction: column;
+   justify-content: center;
 }
 
 section#a_buttons {
@@ -106,8 +107,14 @@ a#todos {
    text-align: center;
 }
 
+section#pessoal {
+   height: 544px;
+   display: flex;
+   flex-direction: column;
+}
+
 section#name {
-   height: 100%;
+   height: 50%;
    margin-left: 40px;
 
    display: flex;
@@ -138,7 +145,7 @@ section#img {
    height: 250px;
 }
 img {
-   width: 150px;
+   width: 178px;
 }
 
 section#sobre {
