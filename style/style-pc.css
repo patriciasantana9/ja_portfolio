@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+
+article {
+   display: flex;
+   flex-direction: row-reverse;
+
+}
+
+section#info {
+   width: 50%;
+}

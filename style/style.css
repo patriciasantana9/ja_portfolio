@@ -49,6 +49,11 @@ main {
    flex-direction: column;
 }
 
+article {
+   display: flex;
+   flex-direction: column;
+}
+
 section#copy {
    height: 256px;
    margin: 0px 40px 0px 0px;
