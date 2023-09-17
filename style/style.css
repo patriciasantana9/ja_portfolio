@@ -133,7 +133,7 @@ section#name {
    gap: 20px;
 }
 
-section#name > h1 {
+section#name > h1 > a {
    font-family: 'Josefin Sans', sans-serif;
    font-size: 1.6em;
    color: black;
