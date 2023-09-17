@@ -1,11 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
 
+body {
+   position: relative;
+}
+
 article {
+   width: 100%;
    display: flex;
    flex-direction: row-reverse;
-
+   justify-content: space-around;
 }
 
 section#info {
-   width: 50%;
+   height: 50%;
+   width: 36%;
+}
+
+section#copy {
+   margin-right: 0px;
+}
+
+section#copy > h3 {
+   font-size: 1.7em;
+   line-height: 32px;
+   width: 349px;
+}
+
+section#a_buttons {
+   justify-content: space-between;
+}
+
+section#pessoal {
+   width: 36%;
+}
+
+section#name {
+   margin: 0px;
+}
+
+section#name > h1 {
+   font-size: 2em;
+   width: 100%;
+}
+
+section#name > h2 {
+   font-size: 1.7em;
+   width: 100%;
+}
+
+section#sobre > p {
+   font-size: 1.3em;
+   width: 448px;
 }
