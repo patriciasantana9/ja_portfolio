@@ -41,8 +41,11 @@ section#name {
 section#name > h1 > a {
    font-size: 2em;
    margin: 0px;
-   text-decoration: none;
    width: 100%;
+}
+
+section#name > h1 > a:hover {
+   font-size: 2.4em;
 }
 
 section#name > h2 {
