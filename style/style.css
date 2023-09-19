@@ -169,7 +169,7 @@ section#img > img {
 section#sobre {
    background-color: #025E73;
    width: 100%;
-   height: 500px;
+   height: 100vh;
    margin-bottom: 48px;
    display: flex;
    flex-direction: column;
@@ -224,6 +224,32 @@ div#links_contatos > a > img {
 
 div#links_contatos > a > img:hover {
    width: 60px;
+}
+
+section#email {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 8px;
+}
+
+form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+label {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 0.7em;
+   color: #A5A692;
+}
+
+form > input, button {
+   width: 60%;
+   font-family: 'Sora', sans-serif;
 }
 
 footer {

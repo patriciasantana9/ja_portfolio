@@ -59,6 +59,7 @@ section#img > img {
 
 section#sobre {
    flex-direction: row;
+   height: 700px;
 }
 
 section#sobre > p {
@@ -73,4 +74,30 @@ section#contatos {
 
 div#links_contatos {
    width: 100%;
+}
+
+section#email {
+   width: 280px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 8px;
+}
+
+form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+label {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 0.7em;
+   color: #A5A692;
+}
+
+form > input {
+   width: 60%;
+   font-family: 'Sora', sans-serif;
 }
