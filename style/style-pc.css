@@ -4,7 +4,7 @@ body {
    position: relative;
 }
 
-article {
+article#principal_article {
    width: 100%;
    flex-direction: row-reverse;
    justify-content: space-around;

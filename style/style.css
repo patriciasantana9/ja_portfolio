@@ -52,7 +52,7 @@ main {
    flex-direction: column;
 }
 
-article {
+article#principal_article {
    height: 100vh;
    display: flex;
    flex-direction: column;
@@ -264,4 +264,16 @@ footer > p {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: #A5A692;
    text-align: center;
+}
+
+/* estilo da página projetos */
+
+h1#h1_projetos {
+   text-align: center;
+}
+
+article.article_projeto {
+   height: 80%;
+   width: 80%;
+   background-color: antiquewhite;
 }
