@@ -57,6 +57,21 @@ section#img > img {
    width: 260px;
 }
 
+section.projeto_destaque {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+article#destaques a > img {
+   width: 100%;
+}
+
+img.projeto_individual:hover {
+   width: 180%;
+}
+
 section#sobre {
    flex-direction: row;
    height: 700px;
