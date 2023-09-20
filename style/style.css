@@ -166,6 +166,27 @@ section#img > img {
    width: 178px;
 }
 
+article#destaques {
+   font-family: 'Sora', sans-serif;
+   font-size: 1em;
+   width: 100%;
+   background-color: #A5A692;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+section.projeto_destaque {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+article#destaques a > img {
+   width: 100%;
+}
+
 section#sobre {
    background-color: #025E73;
    width: 100%;
