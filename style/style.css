@@ -50,6 +50,7 @@ main {
    height: 100%;
    display: flex;
    flex-direction: column;
+   align-items: center;
 }
 
 article#principal_article {
@@ -169,22 +170,28 @@ section#img > img {
 article#destaques {
    font-family: 'Sora', sans-serif;
    font-size: 1em;
-   width: 100%;
-   background-color: #BFB78F;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-section.projeto_destaque {
    width: 80%;
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: flex-start;
+   border-top: solid 3px #011F26;
 }
 
 article#destaques a > img {
    width: 100%;
+}
+
+section.projetos_destaque {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+section.projeto_destaque {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 section#sobre {
