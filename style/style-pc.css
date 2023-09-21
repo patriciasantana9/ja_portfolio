@@ -57,8 +57,26 @@ section#img > img {
    width: 260px;
 }
 
+article#destaques {  
+   padding: 38px 0px 38px 0px;
+   height: 400px;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   gap: 16px;
+}
+
+section#projetos_destaque {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+   justify-content: center;
+   align-items: stretch;
+}
+
 section.projeto_destaque {
-   width: 60%;
+   width: 30%;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -68,11 +86,12 @@ article#destaques a > img {
    width: 100%;
 }
 
-img.projeto_individual:hover {
-   width: 180%;
+.projeto_destaque:hover {
+   width: 40%;
 }
 
 section#sobre {
+   margin: 38px 0px 38px 0px;
    flex-direction: row;
    height: 700px;
 }
