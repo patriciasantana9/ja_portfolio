@@ -53,8 +53,12 @@ main {
    align-items: center;
 }
 
+h1#h1_projetos {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 article#principal_article {
-   height: 100vh;
+   height: 100%;
    display: flex;
    flex-direction: column;
 }
@@ -170,6 +174,7 @@ section#img > img {
 article#destaques {
    font-family: 'Sora', sans-serif;
    font-size: 1em;
+   height: 100%;
    width: 80%;
    display: flex;
    flex-direction: column;
@@ -197,7 +202,8 @@ section.projeto_destaque {
 section#sobre {
    background-color: #025E73;
    width: 100%;
-   height: 100vh;
+   height: 100%;
+   padding: 40px 0px 40px 0px;
    margin-bottom: 48px;
    display: flex;
    flex-direction: column;
@@ -296,6 +302,10 @@ footer > p {
 
 /* estilo da página projetos */
 
+body {
+   background-color: white;
+}
+
 h1#h1_projetos {
    text-align: center;
 }
@@ -319,17 +329,16 @@ section.projeto {
    display: flex;
    flex-direction: column-reverse;
 }
-/* 
-section.sobre_projeto {
-   gap: 10px;
-} */
 
 section.sobre_projeto > a {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 0.9em;
-   color: #011F26;
+   color: white;
    text-decoration: none;
-   padding-left: 38px;
+   text-align: center;
+   background-color: #025E73;
+   border-radius: 10px;
+   padding: 8px;
 }
 
 section.sobre_projeto > a:hover {
