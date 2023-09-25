@@ -5,6 +5,8 @@ body {
 }
 
 article#principal_article {
+   margin-bottom: 24px; 
+   height: 120%;
    width: 100%;
    flex-direction: row-reverse;
    justify-content: space-around;
@@ -31,6 +33,7 @@ section#a_buttons {
 }
 
 section#pessoal {
+   height: 500px;
    width: 312px;
 }
 
@@ -54,11 +57,12 @@ section#name > h2 {
 }
 
 section#img > img {
-   width: 260px;
+   height: 100%;
 }
 
 article#destaques {  
-   padding: 8px 0px 38px 0px;
+   padding: 0px 0px 38px 0px;
+   margin-top: 16px;
    height: 400px;
    width: 90%;
    flex-direction: column;
@@ -136,14 +140,26 @@ form > input {
    font-family: 'Sora', sans-serif;
 }
 
+/* telas muito grandes */
+
+@media (min-width: 1200px) {
+   article#destaques {
+      height: 100%;
+      padding: 36px 0px 0px 0px;
+   }
+}
+
 /* estilo da página projetos */
+h1#h1_projetos {
+   font-size: 2em;
+}
 
 article.article_projeto {
    font-family:  'Sora', sans-serif;
    font-size: 1em;
-   padding: 16px;
+   padding: 24px;
    margin-bottom: 24px;
-   height: 80%;
+   height: 100vh;
    width: 80%;
 }
 
@@ -152,14 +168,16 @@ article.article_projeto > h2 {
 }
 
 section.projeto {
+   height: 70%;
    width: 100%;
    display: flex;
    flex-direction: column;
+   justify-content: space-evenly;
 }
-/* 
+
 section.sobre_projeto {
-   gap: 10px;
-} */
+   height: 20%;
+}
 
 section.sobre_projeto > a {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -167,6 +185,7 @@ section.sobre_projeto > a {
    color: #011F26;
    text-decoration: none;
    background-color: #025E73;
+   margin-bottom: 16px;
 }
 
 section.sobre_projeto > a:hover {
@@ -174,5 +193,24 @@ section.sobre_projeto > a:hover {
 }
 
 img.img_projeto {
-   width: 100%;
+   width: 80%;
+}
+
+ @media (min-width: 1200px) /*and (max-width: )*/ { 
+   article.article_projeto {
+      height: 90vh;
+   }
+   section.projeto {
+      height: 80%;
+      flex-direction: row;
+
+   }
+
+   section.sobre_projeto {
+      height: 20%;
+   }
+
+   img.img_projeto {
+      width: 60%;
+   }
 }
