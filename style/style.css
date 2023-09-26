@@ -182,6 +182,11 @@ article#destaques {
    border-top: solid 3px #011F26;
 }
 
+.sem_decoration {
+   color: black;
+   text-decoration: none;
+}
+
 article#destaques a > img {
    width: 100%;
 }
