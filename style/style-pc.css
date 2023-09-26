@@ -182,7 +182,6 @@ section.sobre_projeto {
 section.sobre_projeto > a {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 0.9em;
-   color: #011F26;
    text-decoration: none;
    background-color: #025E73;
    margin-bottom: 16px;
@@ -196,7 +195,7 @@ img.img_projeto {
    width: 80%;
 }
 
- @media (min-width: 1200px) /*and (max-width: )*/ { 
+@media (min-width: 992px) /*and (max-width: )*/ { 
    article.article_projeto {
       height: 90vh;
    }
