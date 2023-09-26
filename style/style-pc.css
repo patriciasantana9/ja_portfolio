@@ -108,6 +108,7 @@ section#sobre > p {
 section#contatos {
    height: 100%;
    width: 228px;
+   margin: 0px;
 }
 
 div#links_contatos {
@@ -211,5 +212,11 @@ img.img_projeto {
 
    img.img_projeto {
       width: 60%;
+   }
+
+   section#contatos {
+      height: 100%;
+      width: 228px;
+      margin: 0px;
    }
 }

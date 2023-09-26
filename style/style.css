@@ -237,6 +237,7 @@ section#contatos {
    background-color: #A5A692;
    height: 150px;
    width: 100%;
+   margin: 16px 0px 16px 0px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -293,16 +294,24 @@ form > input, button {
 
 footer {
    background-color: #011F26;
+   height: 80px;
    width: 100%;
    position: absolute;
    bottom: 0;
+   font-size: 0.6em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
 }
 
 footer > p {
-   font-size: 0.7em;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: #A5A692;
-   text-align: center;
+}
+
+footer > a {
+   color: #A5A692;
 }
 
 /* estilo da página projetos */
@@ -356,7 +365,6 @@ img.img_projeto {
    align-self: center;
 
 }
-
 
 .ultimo {
    margin-bottom: 80px;
