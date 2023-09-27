@@ -8,7 +8,6 @@ body {
    min-height: 100vh;
    display: flex;
    flex-direction: column;
-   background-color: #A5A692;
    position: relative;
 }
 
@@ -47,6 +46,8 @@ li > a:hover {
 }
 
 main {
+
+   background-color: #A5A692;
    height: 100%;
    display: flex;
    flex-direction: column;
@@ -336,7 +337,12 @@ article.article_projeto {
 }
 
 article.article_projeto > h2 {
+   font-size: 1em;
    padding-top: 16px;
+}
+
+section.sobre_projeto > p {
+   font-size: 0.8em;
 }
 
 section.projeto {

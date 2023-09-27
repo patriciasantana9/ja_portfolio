@@ -95,6 +95,7 @@ article#destaques a > img {
 }
 
 section#sobre {
+   padding: 0px;
    margin: 38px 0px 38px 0px;
    flex-direction: row;
    height: 700px;
@@ -165,7 +166,12 @@ article.article_projeto {
 }
 
 article.article_projeto > h2 {
+   font-size: 1.8em;
    padding-top: 16px;
+}
+
+section.sobre_projeto > p {
+   font-size: 1em;
 }
 
 section.projeto {
