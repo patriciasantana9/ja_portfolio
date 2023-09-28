@@ -315,7 +315,7 @@ footer > a {
    color: #A5A692;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) /*and (max-width: 1200px) */{
 
    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
 
@@ -467,8 +467,9 @@ footer > a {
 }
 
 /* telas muito grandes */
-
+/*
 @media (min-width: 1200px) {
+
    article#destaques {
       height: 100%;
       padding: 36px 0px 0px 0px;
@@ -479,80 +480,4 @@ footer > a {
       line-height: 32px;
       width: 349px;
    }
-}
-
-/* estilo da página projetos */
-h1#h1_projetos {
-   font-size: 2em;
-}
-
-article.article_projeto {
-   font-family:  'Sora', sans-serif;
-   font-size: 1em;
-   padding: 24px;
-   margin-bottom: 24px;
-   height: 100vh;
-   width: 80%;
-}
-
-article.article_projeto > h2 {
-   font-size: 1.8em;
-   padding-top: 16px;
-}
-
-section.sobre_projeto > p {
-   font-size: 1em;
-}
-
-section.projeto {
-   height: 70%;
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-}
-
-section.sobre_projeto {
-   height: 20%;
-}
-
-section.sobre_projeto > a {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 0.9em;
-   text-decoration: none;
-   background-color: #025E73;
-   margin-bottom: 16px;
-}
-
-section.sobre_projeto > a:hover {
-   cursor: pointer;
-}
-
-img.img_projeto {
-   width: 80%;
-}
-
-@media (min-width: 992px) /*and (max-width: )*/ { 
-   article.article_projeto {
-      height: 90vh;
-   }
-
-   section.projeto {
-      height: 80%;
-      flex-direction: row;
-   }
-
-   section.sobre_projeto {
-      height: 20%;
-   }
-
-   img.img_projeto {
-      width: 60%;
-   }
-
-   section#contatos {
-      height: 100%;
-      width: 228px;
-      margin: 0px;
-   }
-}
+}*/
