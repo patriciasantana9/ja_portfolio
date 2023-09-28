@@ -47,6 +47,10 @@ li > a:hover {
 
 main.main_projetos {
    background-color: white;
+   height: 100%; 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center;
 }
 
 h1#h1_projetos {
