@@ -134,6 +134,28 @@ img.img_projeto {
    width: 80%;
 }
 
+footer {
+   background-color: #011F26;
+   height: 100px;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   font-size: 0.6em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+footer > p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #A5A692;
+}
+
+footer > a {
+   color: #A5A692;
+}
+
 @media (min-width: 992px) /*and (max-width: )*/ { 
    article.article_projeto {
       height: 90vh;
