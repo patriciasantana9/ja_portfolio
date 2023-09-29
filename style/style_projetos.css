@@ -48,6 +48,7 @@ li > a:hover {
 main.main_projetos {
    background-color: white;
    height: 100%; 
+   margin-bottom: 56px;
    display: flex; 
    flex-direction: column; 
    align-items: center;
@@ -62,7 +63,7 @@ h1#h1_projetos {
 article.article_projeto {
    font-family:  'Sora', sans-serif;
    font-size: 1em;
-   padding: 16px;
+   padding: 48px 16px;
    margin-bottom: 24px;
    height: 80%;
    width: 80%;
