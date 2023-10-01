@@ -211,4 +211,13 @@ section.do_footer {
       width: 228px;
       margin: 0px;
    }
+
+   footer {
+      font-size: 0.7em;
+      height: 40vh;
+   }
+
+   section.do_footer {
+      width: 25%;
+   }
 }
