@@ -65,7 +65,7 @@ article.article_projeto {
    font-family:  'Sora', sans-serif;
    font-size: 1em;
    padding: 16px 16px 48px 16px;
-   margin-bottom: 24px;
+   margin-bottom: 80px;
    height: 80%;
    width: 80%;
    box-shadow: 1px 8px 8px 0px #67676721;
@@ -83,14 +83,6 @@ section.projeto {
    display: flex;
    flex-direction: column-reverse;
 }
-
-/*
-section.projeto {
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-}*/
 
 section.sobre_projeto {
    height: 20%;
@@ -175,12 +167,16 @@ section.do_footer {
    width: 45%;
 }
 
-
 @media (min-width: 992px) /*and (max-width: )*/ { 
    article.article_projeto {
       font-size: 1.3em;
       height: 90vh;
       padding: 48px;
+   }
+
+   article.ultimo {
+      height: auto;
+      margin-bottom: 150px;
    }
 
    section.projeto {
@@ -210,6 +206,18 @@ section.do_footer {
       height: 100%;
       width: 228px;
       margin: 0px;
+   }
+
+   div.registro_gastos {
+      width: 60%;
+   }
+
+   section.ul {
+      width: 50%;
+   }
+
+   .registro_gastos img {
+      width: 100%;
    }
 
    footer {
