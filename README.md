@@ -1,5 +1,5 @@
 # portfolio
-##Último projeto do curso ElasNaTech.
+## Último projeto do curso ElasNaTech.
 
 Consiste em um portfólio com os projetos (links de repositórios e GitHub Pages) criados durante o curso:
 1. Currículo;
